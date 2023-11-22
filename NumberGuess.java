@@ -10,10 +10,11 @@ public class NumberGuess{
         int i=1;
         while(i<6){
         System.out.println("Enter any number b/w 0 to 100");
-        int a=sc.nextInt();
+        int k=sc.nextInt();
         
-            if(a==num){
+            if(k==num){
                 System.out.println("Correct answer");
+                break;
             }else{
                 System.out.println("Wrong answer!\nPlease try again");
             }
@@ -22,3 +23,5 @@ public class NumberGuess{
         }
 
     }
+
+
