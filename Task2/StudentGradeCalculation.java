@@ -146,6 +146,8 @@ class CalculationFrame extends JFrame implements ActionListener{
         
         //create button for calculation
         b1=new JButton("Calc");
+        b1.setForeground(Color.black);
+        b1.setFont(new Font("tunga",Font.BOLD,36));
         b1.setSize(770,60);
         b1.setLocation(10, 400);
         c.add(b1);
