@@ -5,7 +5,6 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
 
-class NumberGuess extends JFrame
 {
     JTextField t1, t2, t3, t4;
     JLabel j4; 
