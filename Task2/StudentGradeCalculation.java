@@ -4,7 +4,7 @@ import java.awt.*;
 import java.awt.event.*;
 
 class CalculationFrame extends JFrame implements ActionListener{
-    JPanel p1;
+    
     JLabel l1,l2,l3,l4,l5,l6,l7,lh;
     JButton b1;
     JTextField t1,t2,t3,t4,t5,t6,t7;
@@ -22,10 +22,6 @@ class CalculationFrame extends JFrame implements ActionListener{
 
             //Set Background Color
             c.setBackground(Color.cyan); 
-
-            
-        
-        
         
         
         //create first Label
