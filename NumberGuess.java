@@ -30,7 +30,7 @@ class Guess extends JFrame
 
         //Creating image 
         JLabel lblpic = new JLabel("");
-        lblpic.setIcon(new ImageIcon("images.png"));
+        lblpic.setIcon(new ImageIcon("questionmark.jpg"));
         lblpic.setBounds(0,0,500,350);
 
         //Creating label Guess my number text
