@@ -1,10 +1,11 @@
+
 //Number Guessing Game in Java Swing
 //Also posted at 
-
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
 
+class NumberGuess extends JFrame
 {
     JTextField t1, t2, t3, t4;
     JLabel j4; 
@@ -27,6 +28,10 @@ import java.awt.event.*;
         //Set Background Color
         c.setBackground(Color.WHITE); 
 
+        //Creating image 
+        JLabel lblpic = new JLabel("");
+        lblpic.setIcon(new ImageIcon("images.png"));
+        lblpic.setBounds(0,0,500,350);
 
         //Creating label Guess my number text
         JLabel j=new JLabel("GUESS MY NUMBER");
@@ -98,7 +103,7 @@ import java.awt.event.*;
         //Place the components in the pane
         c.add(j5);    
         c.add(j4);    
-        
+        c.add(lblpic);
         c.add(j);    
         c.add(j1);
         c.add(t1);
@@ -117,7 +122,7 @@ import java.awt.event.*;
         setTitle("GUESS MY NUMBER");        
 
         //Set the size of the window and display it
-        setSize(550,350);
+        setSize(600,350);
         setVisible(true);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
     }
@@ -186,6 +191,6 @@ import java.awt.event.*;
 
     public static void main(String[] args)
     {
-        new Guess();
+        new NumberGuess();
     }
-}    
+}
