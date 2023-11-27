@@ -4,14 +4,11 @@ import java.util.Scanner;
 
 class Account{
     String  Name , pin;
-    double bal=0;
+    double bal=0.00;
    
     int Accno=9011;
     Scanner sc=new Scanner(System.in);
 
-    public Account(){
-        
-    }
     
     public Account(String name,double bal){
             this.Name=name;
@@ -67,7 +64,7 @@ class Account{
     
     public void Deposit(){
         String name;
-        double amt,bal;
+        double amt;
         System.out.print("enter account detail like \nName:");
         
         name=sc.nextLine();
