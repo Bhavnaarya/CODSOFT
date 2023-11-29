@@ -2,10 +2,6 @@ package CODSOFT.Task4;
 
 import javax.swing.JOptionPane;
 
-/**
- *
- * @author 91941
- */
 public class MYCurrencyConvertor extends javax.swing.JFrame {
 
     /**
